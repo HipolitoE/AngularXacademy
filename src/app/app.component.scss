@@ -1,0 +1,35 @@
+h2 {
+    color: green;
+    #productos {
+        font-family: Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+      }
+      
+      #productos td,
+      #productos th {
+        border: 1px solid #ddd;
+        padding: 8px;
+      }
+      
+      #productos tr:hover {
+        background-color: white;
+      }
+      
+      #productos th {
+        padding-top: 14px;
+        padding-bottom: 14px;
+        text-align: left;
+        background-color: yellow;
+        color: white;
+      }
+      
+      #button {
+        display: flex;
+        margin: 0 auto;
+        margin-top: 3rem;
+        padding: 3rem;
+        font-size: 2em;
+        font-weight: 600;
+      };
+    }
